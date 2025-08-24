@@ -18,12 +18,53 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'serif': ['Libre Baskerville', 'serif'],
+				'mono': ['JetBrains Mono', 'monospace'],
+				'sans': ['system-ui', '-apple-system', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
 				background: 'hsl(var(--background))',
 				foreground: 'hsl(var(--foreground))',
+				paper: {
+					DEFAULT: 'hsl(var(--paper))',
+					foreground: 'hsl(var(--paper-foreground))'
+				},
+				'academic-blue': {
+					DEFAULT: 'hsl(var(--academic-blue))',
+					foreground: 'hsl(var(--academic-blue-foreground))'
+				},
+				'academic-accent': {
+					DEFAULT: 'hsl(var(--academic-accent))',
+					foreground: 'hsl(var(--academic-accent-foreground))'
+				},
+				'academic-muted': {
+					DEFAULT: 'hsl(var(--academic-muted))',
+					foreground: 'hsl(var(--academic-muted-foreground))'
+				},
+				success: {
+					DEFAULT: 'hsl(var(--success))',
+					foreground: 'hsl(var(--success-foreground))'
+				},
+				warning: {
+					DEFAULT: 'hsl(var(--warning))',
+					foreground: 'hsl(var(--warning-foreground))'
+				},
+				error: {
+					DEFAULT: 'hsl(var(--error))',
+					foreground: 'hsl(var(--error-foreground))'
+				},
+				'figure-border': 'hsl(var(--figure-border))',
+				'figure-caption': 'hsl(var(--figure-caption))',
+				'code-bg': 'hsl(var(--code-bg))',
+				'code-foreground': 'hsl(var(--code-foreground))',
+				'chart-primary': 'hsl(var(--chart-primary))',
+				'chart-secondary': 'hsl(var(--chart-secondary))',
+				'chart-accent': 'hsl(var(--chart-accent))',
+				'chart-neutral': 'hsl(var(--chart-neutral))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
 					foreground: 'hsl(var(--primary-foreground))'
